@@ -13,6 +13,7 @@ Debes ejecutar este comando en el directorio donde se encuentra el archivo packa
 npm run dev
 3. apra pasar la inormacion al html y css osea para buildear el proyecto necesitamos usar el comando "npm run buil"
 4. para usar snipets automaticos con el plugin "simple react snipets" y lo suamos en el  componente numero 2 creando automanticamente usando ffc y ya sse crea el comonete.
+5. las props son componentes que s heredan del componente padre al componente hijo y permiten la comunicacion entre componentes
 
 
 
