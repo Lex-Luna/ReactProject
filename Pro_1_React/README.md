@@ -1,7 +1,30 @@
 # React + Vite
 
-para correr en modo local escribir en la terminal: "npm run dev" desde la raiz del proyecto.
-Para instalar el proyecto react debes escribi en la terminal dentro de tu proyecto: "npm install" en el mismo file system donde se encuentra la carpeta packaje.json, esto permitira instalar todas las dependencias que tienes  en packaje.json y esto te permitira hacer uso de los scripts que tienes almacenados en esta carpeta 
+Este proyecto utiliza Vite como herramienta de construcción para React.
+### Notas importantes
+Todos los comandos definidos en package.json deben precederse con "npm run" y despues podras usra cualquier script de la carpeta packaje.json.
+
+## Cómo ejecutar el proyecto localmente
+Debes ejecutar este comando en el directorio donde se encuentra el archivo package.json.
+1. Instala las dependencias:
+   ```bash
+   npm install
+2. Inicia el servidor de desarrollo:
+npm run dev
+3. apra pasar la inormacion al html y css osea para buildear el proyecto necesitamos usar el comando "npm run buil"
+
+
+
+
+## Características del template
+Este template incluye una configuración mínima para trabajar con React en Vite, incluyendo:
+
+HMR (Hot Module Replacement)
+
+Reglas básicas de ESLint
+
+Plugins oficiales disponibles
+Actualmente hay dos plugins oficiales:
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
